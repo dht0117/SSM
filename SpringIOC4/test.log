@@ -1,0 +1,84 @@
+2020-07-22 22:19:15 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c81cdd1
+2020-07-22 22:19:15 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\BookDao.class]
+2020-07-22 22:19:15 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\UserDao.class]
+2020-07-22 22:19:15 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\BookService.class]
+2020-07-22 22:19:15 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\UserService.class]
+2020-07-22 22:19:15 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookDao'
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookService'
+2020-07-22 22:19:15 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2020-07-22 22:19:16 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@631330c
+2020-07-22 22:19:16 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\BookDao.class]
+2020-07-22 22:19:16 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\UserDao.class]
+2020-07-22 22:19:16 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\BookService.class]
+2020-07-22 22:19:16 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\UserService.class]
+2020-07-22 22:19:16 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookDao'
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookService'
+2020-07-22 22:19:16 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2020-07-22 22:25:45 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c81cdd1
+2020-07-22 22:25:45 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\BookDao.class]
+2020-07-22 22:25:45 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\UserDao.class]
+2020-07-22 22:25:45 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\BookService.class]
+2020-07-22 22:25:45 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\UserService.class]
+2020-07-22 22:25:45 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookDao'
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookService'
+2020-07-22 22:25:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2020-07-22 22:25:46 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@631330c
+2020-07-22 22:25:46 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\BookDao.class]
+2020-07-22 22:25:46 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\UserDao.class]
+2020-07-22 22:25:46 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\BookService.class]
+2020-07-22 22:25:46 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\UserService.class]
+2020-07-22 22:25:46 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookDao'
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookService'
+2020-07-22 22:25:46 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2020-07-22 22:48:10 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c81cdd1
+2020-07-22 22:48:10 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\BookDao.class]
+2020-07-22 22:48:10 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\UserDao.class]
+2020-07-22 22:48:10 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\BookService.class]
+2020-07-22 22:48:10 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\UserService.class]
+2020-07-22 22:48:10 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookDao'
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookService'
+2020-07-22 22:48:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2020-07-22 22:48:11 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@631330c
+2020-07-22 22:48:11 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\BookDao.class]
+2020-07-22 22:48:11 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Dao\UserDao.class]
+2020-07-22 22:48:11 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\BookService.class]
+2020-07-22 22:48:11 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [F:\Workspace\SpringIOC4\target\classes\com\atguigu\Service\UserService.class]
+2020-07-22 22:48:11 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookDao'
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'bookService'
+2020-07-22 22:48:11 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'

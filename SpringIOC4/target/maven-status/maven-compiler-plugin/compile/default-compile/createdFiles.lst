@@ -1,0 +1,8 @@
+com\atguigu\Dao\BaseDao.class
+com\atguigu\Service\BaseService.class
+com\atguigu\Dao\BookDao.class
+com\atguigu\Dao\UserDao.class
+com\atguigu\Bean\Book.class
+com\atguigu\Service\UserService.class
+com\atguigu\Service\BookService.class
+com\atguigu\Bean\User.class

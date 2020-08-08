@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--     id这个对象的唯一标识-->
+    <bean id="person1" class="Person">
+        <property name="name" value="张三"></property>
+        <property name="age" value="18"></property>
+    </bean>
+    <bean id="person2" class="Person">
+        <property name="name" value="lisi"></property>
+        <property name="age" value="20"></property>
+    </bean>
+    <bean id="person3" class="Person">
+<!--        调用有参构造器进行对象创建并赋值   掌握-->
+        <constructor-arg name="name" value="小明"></constructor-arg>
+        <constructor-arg name="age" value="22"></constructor-arg>
+    </bean>
+<!--  通过p名称空间为bean赋值  -->
+<!--名称空间：在xml中名称空间是防止标签重复的-->
+    
+</beans>

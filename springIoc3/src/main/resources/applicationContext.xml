@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context ">
+<!--  通过注解，分别创建Dao，Service、Controller
+ 通过给bean上添加某些注解，可以快速的将bean加入ioc容器-->
+<!--  Spring有四个注解
+  @Controller :控制器；推荐给控制层(Servlet包下的)组件加这个注解
+  @Service 业务逻辑：推荐业务逻辑层的组件加这个注解 BookService
+  @Reposity 数据库（持久层，dao层）的组件添加这个注解
+  @Component 给不属于以上几层的组件添加这个注解
+
+  注解可以随便加，spring底层不会验证 注解对应是推荐
+  使用注解将组件快速加入到容器中需要几步：
+  1.给添加的组件上标四个注解的任何一个
+  2.告诉Spring：自动扫描加了注解的组件，依赖context名称空间
+    3.一定要导入aop包
+  -->
+<!--  context：component-scan ：自动扫描组件  -->
+<!--    <context:component-scan base-package="com.atguigu">-->
+<!--&lt;!&ndash;    扫描的时候可以排除一些组件-->
+<!--    type="annotation" 指定排除规则，按照注解进行排除。标注了指定注解的组件不要-->
+<!--    expression=“”：注解的全类名-->
+<!--    type="assignable":指定排除某个具体类，按照类排除-->
+<!--    expression  类的全类名-->
+<!--    &ndash;&gt;-->
+<!--        <context:exclude-filter type="assignable" expression="org.springframework.stereotype.Controller"/>-->
+<!--    </context:component-scan>-->
+
+
+    <!--  DI依赖注入  -->
+    <!--  @Autowired原理：
+        @Autowired
+        private BookService bookService;
+        1.先按照类型去容器中找到对应的组件：bookService=ioc.getBean（BookService。class）
+            1.找到一个，赋值
+            2.没找到，抛异常
+            3.找到多个
+                1.按照变量名作为id继续匹配：BookService（bookService），BookServiceExt（bookServiceExt）-->
+    <context:component-scan base-package="com.atguigu">
+
+    </context:component-scan>
+</beans>

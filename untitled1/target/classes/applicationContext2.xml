@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+<!--    引用外部属性文件*********依赖context名称空间-->
+<!--    数据库连接池作为单实例是最好的，一个项目就一个连接池-->
+<!--  可以让spring来建立连接池对象  -->
+    <!-- 加载外部配置文件  固定写法：classpath:表示引用类路径下的一个资源 -->
+    <context:property-placeholder location="classpath:dbconfig.properties"/>
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${username1}"></property>
+<!--   ${key} 动态取出配置文件中某个key对用的值       -->
+        <property name="password" value="${password}"></property>
+        <property name="jdbcUrl" value="${jdbcUrl}"></property>
+        <property name="driverClass" value="${driverClass}"></property>
+    </bean>
+</beans>
